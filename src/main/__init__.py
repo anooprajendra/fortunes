@@ -12,10 +12,6 @@ from fastapi.responses import FileResponse
 
 app = FastAPI()
 
-# app.add_middleware(
-#    CORSMiddleware, allow_origins="http://192.168.5.38:8000", allow_credentials=True
-# )
-
 app.mount("/js", StaticFiles(directory="static/js"), name="js")
 app.mount("/css", StaticFiles(directory="static/css"), name="css")
 

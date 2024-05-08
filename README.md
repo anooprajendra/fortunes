@@ -9,7 +9,7 @@
 1. Download the source code.
 1. Create Docker Image
    ```sh
-   $ docker build -f docker/Dockerfile -t fortunes-server:latest
+   $ docker buildx build -f docker/Dockerfile -t fortunes-server:latest .
    ```
 
 ### Usage
