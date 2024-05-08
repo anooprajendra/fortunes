@@ -1,6 +1,9 @@
 # Fortunes Server
 
-### Requirements
+This utility reads Unix fortune cookies, and outputs them on to
+a web page.
+
+### Build and Usage Requirements
 
 1. Docker
 
